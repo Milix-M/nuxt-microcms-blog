@@ -6,5 +6,4 @@ export default defineNuxtConfig({
     apiKey: process.env.MICROCMS_API_KEY,
     target: "all",
   },
-  ssr: false,
   devtools: { enabled: true },})
